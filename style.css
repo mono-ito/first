@@ -17,3 +17,17 @@
     color: #ffffff;
     background: linear-gradient(to right,#636363,#BBBBBB);
 }
+.btn-ground {
+
+    background-color: #E3E3E3;
+}
+.btn-3 {
+    padding: 25px 165px;
+    font-size: 20px;
+    margin: 100px;
+    background-color: #ffffff;
+    border: none;
+}
+.btn-3:hover {
+    box-shadow:0px 0px 20px #ccc;
+}
