@@ -646,20 +646,54 @@ textarea {
 
 
 
-
 /* ==========================================================================//
 //
 // [Ituki]
 //
 // ========================================================================== */
 
+.l-footer {
+	text-align: center;
+	padding: 20px 0;
+	background: linear-gradient(
+		270deg,
+		#32d5ab,
+		#33d532,
+		#3244d5,
+		#d432d5,
+		#d5bc32,
+		#d53232,
+		#6832d5
+	);
+	background-size: 300% 300%;
+	animation: AnimationName 30s ease infinite;
+}
 
+@keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.l-footer__text {
+	font-size: 30px;
+	background-clip: text;
+	color: transparent;
+	-webkit-text-stroke: 0.09rem white;
+}
 
 /* ==========================================================================//
 //
 // [Kenji]
 //
 // ========================================================================== */
+
 .l-header {
   height: 110px;
   width: 100%;
@@ -694,4 +728,5 @@ textarea {
 // [Yuya]
 //
 // ========================================================================== */
+
 
