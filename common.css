@@ -677,3 +677,14 @@ textarea {
 //
 // ========================================================================== */
 
+body{
+  background-color: #cdc3b9;
+  display: flex;
+  align-items: center;
+}
+
+.l-wrapper{
+  min-width: 978px;
+  background-color: #a99f95;
+  padding: 10px 20px;
+}
