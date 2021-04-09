@@ -643,6 +643,24 @@ textarea {
 // [Daiki]
 //
 // ========================================================================== */
+.l-aside {
+  width: 215px;
+  background-color: #8A8077;
+}
+.l-navigation{
+  width: 90%;
+  margin: auto;
+  padding: 10px 0;
+}
+.l-navigation-item{
+  padding: 10px;
+  background-color: #58514B;
+  color: #CDC3BA;
+  margin-bottom: 5px;
+}
+a:link {
+  color: #CDC3BA;
+}
 
 
 
