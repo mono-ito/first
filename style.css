@@ -1,0 +1,42 @@
+body {
+background: #fff;
+font-size: 20px;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+justify-content: space-around;
+}
+
+.button__main {
+  font-size: 20px;
+  width: 400px;
+  height: 80px;
+  background-color: #fff;
+  letter-spacing: 0.15em;
+}
+
+.button__main:hover{
+  color: #fff;
+  background-color: #000;
+  transition: all .3s;
+}
+
+.button__sub {
+  font-size: 20px;
+  font-weight: bold;
+  width: 400px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: transparent;
+  border-width: 3px;
+  letter-spacing: 0.15em;
+}
+
+.button__sub:hover{
+  color: #fff;
+  background-image: linear-gradient(to right bottom, #606060, #fff);
+  border: none;
+  transition: all .3s;
+}
