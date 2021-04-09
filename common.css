@@ -643,7 +643,24 @@ textarea {
 // [Daiki]
 //
 // ========================================================================== */
-
+.l-aside {
+  width: 215px;
+  background-color: #8A8077;
+}
+.l-navigation{
+  width: 90%;
+  margin: auto;
+  padding: 10px 0;
+}
+.l-navigation-item{
+  padding: 10px;
+  background-color: #58514B;
+  color: #CDC3BA;
+  margin-bottom: 5px;
+}
+a:link {
+  color: #CDC3BA;
+}
 
 
 
@@ -653,7 +670,41 @@ textarea {
 //
 // ========================================================================== */
 
+.l-footer {
+	text-align: center;
+	padding: 20px 0;
+	background: linear-gradient(
+		270deg,
+		#32d5ab,
+		#33d532,
+		#3244d5,
+		#d432d5,
+		#d5bc32,
+		#d53232,
+		#6832d5
+	);
+	background-size: 300% 300%;
+	animation: AnimationName 30s ease infinite;
+}
 
+@keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.l-footer__text {
+	font-size: 30px;
+	background-clip: text;
+	color: transparent;
+	-webkit-text-stroke: 0.09rem white;
+}
 
 /* ==========================================================================//
 //
@@ -661,7 +712,26 @@ textarea {
 //
 // ========================================================================== */
 
-
+.l-header {
+  height: 110px;
+  width: 100%;
+  background-color: aquamarine;
+}
+.l-header__in {
+  height: 100%;
+  padding: 20px 20px 0;
+}
+.l-header__utility {
+  margin-top: 20px;
+}
+.l-header__menu-list {
+  display: flex;
+}
+.l-header__menu-item {
+  vertical-align: middle;
+  margin-right: 20px;
+  padding-bottom: 8px;
+}
 
 /* ==========================================================================//
 //
@@ -677,6 +747,7 @@ textarea {
 //
 // ========================================================================== */
 
+<<<<<<< HEAD
 body{
   background-color: #cdc3b9;
   display: flex;
@@ -688,3 +759,6 @@ body{
   background-color: #a99f95;
   padding: 10px 20px;
 }
+=======
+
+>>>>>>> 06a4dcdfb0e95539246b96d768fd5557fe7775a7
