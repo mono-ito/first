@@ -660,8 +660,26 @@ textarea {
 // [Kenji]
 //
 // ========================================================================== */
-
-
+.l-header {
+  height: 110px;
+  width: 100%;
+  background-color: aquamarine;
+}
+.l-header__in {
+  height: 100%;
+  padding: 20px 20px 0;
+}
+.l-header__utility {
+  margin-top: 20px;
+}
+.l-header__menu-list {
+  display: flex;
+}
+.l-header__menu-item {
+  vertical-align: middle;
+  margin-right: 20px;
+  padding-bottom: 8px;
+}
 
 /* ==========================================================================//
 //
